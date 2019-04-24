@@ -1,7 +1,7 @@
-# datasets_emotion
-This repository collects information about different data sets for Music Emotion Recognition and Speech Emotion Recognition.
+# MER and SER Data sets
 
-## MER Data sets
+## Summary
+### MER Data sets
 | Dataset | Year | Content | Format | Size | Annotation Type | Language | Available |
 |:-------:|:----:|:-------:|:------:|:----:|:---------------:|:--------:|:---------:|
 |4Q audio emotion|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Mainly english, some spanish and portuguese|Yes|
@@ -11,14 +11,13 @@ This repository collects information about different data sets for Music Emotion
 |NTWICM|2010|2648 full songs|MP3|11.7GB|"Discrete" Dimensional|Mainly english|Yes|
 |CH818|2017|818 excerpts (30s long)|?|?|?|Mandarin|No|
 
-## SER Data sets
+### SER Data sets
 | Dataset | Year | Content | Format | Size | Annotation Type | Language | Available |
 |:-------:|:----:|:-------:|:------:|:----:|:---------------:|:--------:|:---------:|
-|Recola|
-|SEMAINE|
-|SEWA|
-|Polish Emotions|
-
+|RECOLA/AVEC2015|2013|9.5 hours of multimodal recordings|WAV,MP4,CSV|3.6GB|Dimensional (Time-continuous A-V)|French|Yes|
+|SEMAINE-SolidSAL|2012|7.5 hours of speech recordings|WAV,AVI|38.7GB|Dimensional (Time-continuous A-V)|English|Yes|
+|SEWA|2019|44 hours of multimodal recordings| ? | ? |Dimensional (Time-continuous A-V)|British, German, Hungarian, Greek, Serbian, and Chinese|In process|
+|MMDBESP|2019|xx hours of video recordings|MP4|10.6GB|Categorical (Fear, Surprise, Anger, Sadness, Happiness, Disgust)|Polish|Yes|
 
 ## Additional information
 ### MER Data sets
@@ -36,7 +35,7 @@ This repository collects information about different data sets for Music Emotion
 and the medleyDB datase. The excerpts which were annotated are available in the same package song ids between 1 and 2058. The dataset consists of 2014 development set (744 songs), 2014 evaluation set (1000 songs) and 2015 evaluation set (58 songs). Includes rock, pop, soul, blues, electronic, classical, hip-hop, international, experimental, folk, jazz, country and pop genres.
 * Annotation strategy: Crowdsourced MTurk with each excerpt annotated at least by 10 workers. Both arousal and valence were annotated separately. Additional static annotations were collected for the whole 45 second exceprts after dynamic annotations. 
 * Paper: Aljanaki A., Yang Y., Soleymani M. (2017) Developing a benchmark for emotional analysis of music. PLoS ONE 12(3): e0173392. https://doi.org/10.1371/journal.pone.0173392
-* Annotation (dimensional): Time-continuous arousal and valence annotation
+* Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
 * Link: http://cvml.unige.ch/databases/DEAM/
 
 #### Soundtracks
@@ -73,33 +72,35 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 
 ### SER Data sets
 #### RECOLA
-* Author: 
-* Description:
-* Annotation strategy:
-* Paper: 
-* Annotation:
-* Link: 
+* Author: Ringeval, F., Sonderegger, A., Sauer, J., Lalanne, D.
+* Description: Participants were recorded in dyads during a video conference while completing a task requiring collaboration. Different multimodal data, i.e., audio, video, ECG and EDA, were recorded continuously and synchronously.
+* Annotation strategy: 6 annotators measured emotion continuously on two dimensions: arousal and valence, as well as social behavior labels on five dimensions. The annotation is made with an open source web-based annotation tool (ANNEMO).
+* Paper: F. Ringeval, A. Sonderegger, J. Sauer and D. Lalanne, "Introducing the RECOLA Multimodal Corpus of Remote Collaborative and Affective Interactions", 2nd International Workshop on Emotion Representation, Analysis and Synthesis in Continuous Time and Space (EmoSPACE), in Proc. of IEEE Face & Gestures 2013, Shanghai (China), April 22-26 2013.
+* Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
+* Link: https://diuf.unifr.ch/main/diva/recola/download.html
 
 #### SEMAINE
-* Author: 
-* Description:
-* Annotation strategy:
-* Paper: 
-* Annotation:
-* Link: 
+* Author: McKeown, G., Valstar, M., Cowie, R., Pantic, M., Schroder, M.
+* Description: The interactions involve two parties, a “user” (who is always human) and an “operator” (either a machine or a
+person simulating a machine). A key objective of the Solid SAL scenario was to record behaviors (mainly nonverbal) that a human operator shows in fluent face-to-face conversation, including their relationships to user behavior—notably  backchanneling, eye contact, various synchronies, and so on.
+* Annotation strategy:  For user clips, four sessions have been annotated by eight raters, 17 by 6, and the remainder by
+at least three. For operator clips three have been annotated by four raters, the rest by one rater.
+* Paper: McKeown, G., Valstar, M., Cowie, R., Pantic, M., Schroder, M. The SEMAINE Database: Annotated Multi-modal Records of Emotionally Colored Conversations between a Person and a Limited Agent. IEEE Transactions on Affective Computing. 2012; 3:5–17. https://doi.org/10.1109/T-AFFC.2011.20
+* Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
+* Link: https://semaine-db.eu/
 
 #### SEWA
-* Author: 
-* Description:
+* Author: Kossaifi, J., Walecki, R., Panagakis, Y., Shen, J., Schmitt, M., Ringeval, F., Han, J. et al.
+* Description: Subjects were recorded in two different contexts: while watching adverts and while discussing adverts in a video chat. The database includes rich annotations of the recordings in terms of facial landmarks, facial action units (FAU), various vocalisations, mirroring, and continuously valued valence, arousal, liking, agreement, and prototypic examples of (dis)liking. 
 * Annotation strategy:
-* Paper: Kossaifi, Jean, Robert Walecki, Yannis Panagakis, Jie Shen, Maximilian Schmitt, Fabien Ringeval, Jing Han et al. "SEWA DB: A Rich Database for Audio-Visual Emotion and Sentiment Research in the Wild." arXiv preprint arXiv:1901.02839 (2019).
-* Annotation:
-* Link: 
+* Paper: Kossaifi, J., Walecki, R., Panagakis, Y., Shen, J., Schmitt, M., Ringeval, F., Han, J. et al. "SEWA DB: A Rich Database for Audio-Visual Emotion and Sentiment Research in the Wild." arXiv preprint arXiv:1901.02839 (2019).
+* Annotation: 538 short (10-30s) video-chat recording segments were manually selected to form the fully-annotated basic SEWA dataset. These segments were selected based on the subjects to the subjects emotional state of low / high valance, low / high arousal, and liking / disliking. All 6 cultures were evenly represented in the basic SEWA dataset, with approximately 90 segments selected from each culture based on the consensus of at least 3 annotators from the same culture.
+* Link: https://db.sewaproject.eu/
 
-#### Polish Emotions
-* Author: 
-* Description:
-* Annotation strategy:
-* Paper: 
-* Annotation:
-* Link: 
+#### MMDBESP: Multimodal Database of Emotional Speech in Polish
+* Author: Sapiński T., Kamińska D., Pelikant A., Ozcinar C., Avots E., Anbarjafari G. 
+* Description: Before the recording all actors were presented with a short scenario describing the sequence of emotions they had to present in order: neutral state, sadness, surprise, fear, disgust, anger, happiness. In addition they were asked to utter a short sentence in Polish, same for all emotional states Każdy z nas odczuwa emocje na swój sposób (English translation: Each of us perceives emotions in a different manner). 
+* Annotation strategy: Enacted emotions - not ecologically valid. 
+* Paper: Sapiński T., Kamińska D., Pelikant A., Ozcinar C., Avots E., Anbarjafari G. (2019) Multimodal Database of Emotional Speech, Video and Gestures. In: Zhang Z., Suter D., Tian Y., Branzan Albu A., Sidère N., Jair Escalante H. (eds) Pattern Recognition and Information Forensics. ICPR 2018. Lecture Notes in Computer Science, vol 11188
+* Annotation (categorical): Fear, Surprise, Anger, Sadness, Happiness, Disgust - basic emotions. 
+* Link: https://competitions.codalab.org/competitions/22249
