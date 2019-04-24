@@ -2,9 +2,8 @@
 This repository collects information about different data sets for Music Emotion Recognition and Speech Emotion Recognition.
 
 ## MER Data sets
-
-| Dataset | Year | Content | Format | Size | Annotation Type | Language | Obtained |
-|:-------:|:----:|:-------:|:------:|:----:|:---------------:|:--------:|:--------:|
+| Dataset | Year | Content | Format | Size | Annotation Type | Language | Available |
+|:-------:|:----:|:-------:|:------:|:----:|:---------------:|:--------:|:---------:|
 |4Q audio emotion|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Mainly english, some spanish and portuguese|Yes|
 |DEAM/Mediaeval/AMG1608|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|Mainly english, italian, spanish, portuguese|Yes|
 |Soundtracks|2011|360+110 exceprts (15s-1m long)|MP3|216MB|Categorical (tension, anger, fear, happy, sad, tender) and Dimensional (valence, energy, tension)|Instrumental|Yes|
@@ -13,8 +12,12 @@ This repository collects information about different data sets for Music Emotion
 |CH818|2017|818 excerpts (30s long)|?|?|?|Mandarin|No|
 
 ## SER Data sets
-| Dataset | Year | Content | Format | Size | Annotation Type | Language |
-|:-------:|:----:|:-------:|:------:|:----:|:---------------:|:--------:|
+| Dataset | Year | Content | Format | Size | Annotation Type | Language | Available |
+|:-------:|:----:|:-------:|:------:|:----:|:---------------:|:--------:|:---------:|
+|Recola|
+|SEMAINE|
+|SEWA|
+|Polish Emotions|
 
 
 ## Additional information
@@ -69,5 +72,34 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: *NOT AVAILABLE*
 
 ### SER Data sets
+#### RECOLA
+* Author: 
+* Description:
+* Annotation strategy:
+* Paper: 
+* Annotation:
+* Link: 
 
+#### SEMAINE
+* Author: 
+* Description:
+* Annotation strategy:
+* Paper: 
+* Annotation:
+* Link: 
 
+#### SEWA
+* Author: 
+* Description:
+* Annotation strategy:
+* Paper: Kossaifi, Jean, Robert Walecki, Yannis Panagakis, Jie Shen, Maximilian Schmitt, Fabien Ringeval, Jing Han et al. "SEWA DB: A Rich Database for Audio-Visual Emotion and Sentiment Research in the Wild." arXiv preprint arXiv:1901.02839 (2019).
+* Annotation:
+* Link: 
+
+#### Polish Emotions
+* Author: 
+* Description:
+* Annotation strategy:
+* Paper: 
+* Annotation:
+* Link: 
