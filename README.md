@@ -5,7 +5,7 @@
 | Dataset | Year | Content | Format | Size | Annotation Type | Language | Available |
 |:-------:|:----:|:-------:|:------:|:----:|:---------------:|:--------:|:---------:|
 |4Q audio emotion|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Mainly english, some spanish and portuguese|Yes|
-|DEAM/Mediaeval/AMG1608|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|Mainly english, italian, spanish, portuguese|Yes|
+|DEAM/Mediaeval|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|Mainly english, italian, spanish, portuguese|Yes|
 |Soundtracks|2011|360+110 exceprts (15s-1m long)|MP3|216MB|Categorical (tension, anger, fear, happy, sad, tender) and Dimensional (valence, energy, tension)|Instrumental|Yes|
 |MoodsMIREX|2008|269 excerpts (30s long)|MP3|736MB|Categorical (5 mood clusters)|Mainly english|Yes|
 |NTWICM|2010|2648 full songs|MP3|11.7GB|"Discrete" Dimensional|Mainly english|Yes|
