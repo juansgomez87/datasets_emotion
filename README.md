@@ -2,22 +2,22 @@
 
 ## Summary
 ### Music Emotion Recognition Data sets
-| Dataset | Year | Content | Format | Size | Annotation Type | Available |
-|:-------:|:----:|:-------:|:------:|:----:|:---------------:|:---------:|
-|4Q audio emotion|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Yes|
-|DEAM/Mediaeval|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|Yes|
-|Soundtracks|2011|360+110 exceprts (15s-1m long)|MP3|216MB|Categorical (tension, anger, fear, happy, sad, tender) and Dimensional (valence, energy, tension)|Instrumental|Yes|
+| Dataset | Year | Content | Format | Size | Annotation Type |
+|:-------:|:----:|:-------:|:------:|:----:|:---------------:|
+|4Q audio emotion|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|
+|DEAM/Mediaeval|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|
+|Soundtracks|2011|360+110 exceprts (15s-1m long)|MP3|216MB|Categorical (tension, anger, fear, happy, sad, tender) and Dimensional (valence, energy, tension)|
 |MoodsMIREX|2008|269 excerpts (30s long)|MP3|736MB|Categorical (5 mood clusters)|Yes|
-|NTWICM|2010|2648 full songs|MP3|11.7GB|"Discrete" Dimensional|Yes|
-|CH818|2017|818 excerpts (30s long)|MP3|393MB|Dimensional|No|
+|NTWICM|2010|2648 full songs|MP3|11.7GB|"Discrete" Dimensional|
+|CH818|2017|818 excerpts (30s long)|MP3|393MB|Dimensional|
 
 ### Speech Emotion Recognition Data sets
-| Dataset | Year | Content | Format | Size | Annotation Type | Language | Available |
-|:-------:|:----:|:-------:|:------:|:----:|:---------------:|:--------:|:---------:|
-|RECOLA/AVEC2015|2013|9.5 hours of multimodal recordings|WAV,MP4,CSV|3.6GB|Dimensional (Time-continuous A-V)|French|Yes|
-|SEMAINE-SolidSAL|2012|7.5 hours of speech recordings|WAV,AVI|38.7GB|Dimensional (Time-continuous A-V)|English|Yes|
-|SEWA|2019|44 hours of multimodal recordings| ? | ? |Dimensional (Time-continuous A-V)|British, German, Hungarian, Greek, Serbian, and Mandarin|In process|
-|MMDBESP|2019|xx hours of video recordings|MP4|10.6GB|Categorical (Fear, Surprise, Anger, Sadness, Happiness, Disgust)|Polish|Yes|
+| Dataset | Year | Content | Format | Size | Annotation Type | Language |
+|:-------:|:----:|:-------:|:------:|:----:|:---------------:|:--------:|
+|RECOLA/AVEC2015|2013|9.5 hours of multimodal recordings|WAV,MP4,CSV|3.6GB|Dimensional (Time-continuous A-V)|French|
+|SEMAINE-SolidSAL|2012|7.5 hours of speech recordings|WAV,AVI|38.7GB|Dimensional (Time-continuous A-V)|English|
+|SEWA|2019|44 hours of multimodal recordings| ? | ? |Dimensional (Time-continuous A-V)|British, German, Hungarian, Greek, Serbian, and Mandarin|
+|MMDBESP|2019|xx hours of video recordings|MP4|10.6GB|Categorical (Fear, Surprise, Anger, Sadness, Happiness, Disgust)|Polish|
 
 ## Additional information
 ### Music Emotion Recognition Data sets
