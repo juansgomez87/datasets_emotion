@@ -9,7 +9,7 @@
 |Soundtracks|2011|360+110 exceprts (15s-1m long)|MP3|216MB|Categorical (tension, anger, fear, happy, sad, tender) and Dimensional (valence, energy, tension)|Instrumental|Yes|
 |MoodsMIREX|2008|269 excerpts (30s long)|MP3|736MB|Categorical (5 mood clusters)|Mainly english|Yes|
 |NTWICM|2010|2648 full songs|MP3|11.7GB|"Discrete" Dimensional|Mainly english|Yes|
-|CH818|2017|818 excerpts (30s long)|?|?|?|Mandarin|No|
+|CH818|2017|818 excerpts (30s long)|MP3|393MB|Dimensional|Mandarin|No|
 
 ### SER Data sets
 | Dataset | Year | Content | Format | Size | Annotation Type | Language | Available |
@@ -67,8 +67,8 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Description and music styles: Chinese Pop songs released in Taiwan, Hong Kong and Mainland China.
 * Annotation strategy: Each clip was annotated by three music experts who were born and raised in Mainland China and thus were with a Chinese cultural background. The annotation was done with an interface consisting of two sliding bars of continuous real values between [-10,10]. 
 * Paper: X. Hu and Y. Yang, "Cross-Dataset and Cross-Cultural Music Mood Prediction: A Case on Western and Chinese Pop Songs" in IEEE Transactions on Affective Computing, vol. 8, no. 02, pp. 228-240, 2017. doi: 10.1109/TAFFC.2016.2523503
-* Annotation (dimensional): Arousal and valence continuous real values between [-10,10].
-* Link: *NOT AVAILABLE*
+* Annotation (dimensional): Arousal and valence real values between [-10,10] for whole excerpt.
+* Link: *NOT AVAILABLE* (made available by Yi-Hsuan Yang).
 
 ### SER Data sets
 #### RECOLA
