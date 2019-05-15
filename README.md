@@ -28,7 +28,7 @@
 * Paper: Panda R., Malheiro R., Paiva R. P. (2018). “Musical Texture and Expressivity Features for Music Emotion Recognition”. 19th International Society for Music Information Retrieval Conference – ISMIR 2018, Paris, France.
 * Annotation (categorical): Q1 (A+V+), Q2 (A+V-), Q3(A-V-), Q4 (A-V+)
 * Link: http://mir.dei.uc.pt/downloads.html 
-* *Languages: English: 724, Spanish: 24, French: 0, German: 0, Other: 16, Unknown: 136, Total number of songs: 899*
+* *Languages: English: 724, Spanish: 24, French: 0, German: 0, Other: 16, Unknown: 136, Total (from Metadata): 899*
 
 #### DEAM: MediaEval Database for Emotional Analysis in Music
 * Author: Soleymani, M., Aljanaki, A., Yang, Y.
@@ -38,7 +38,7 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Paper: Aljanaki A., Yang Y., Soleymani M. (2017) Developing a benchmark for emotional analysis of music. PLoS ONE 12(3): e0173392. https://doi.org/10.1371/journal.pone.0173392
 * Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
 * Link: http://cvml.unige.ch/databases/DEAM/
-* *Languages: English: 1531, Spanish: 13, French: 0, German: 0, Other: 47, Unknown 211, Total number of songs: 1801*
+* *Languages: English: 1531, Spanish: 13, French: 0, German: 0, Other: 47, Unknown 211, Total (from Metadata): 1801*
 
 #### Soundtracks
 * Author: Eerola, T. & Vuoskoski, J. K.
@@ -65,7 +65,7 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Paper: Björn Schuller, Johannes Dorfner, Gerhard Rigoll: "Determination of Non-Prototypical Valence and Arousal in Popular Music: Features and Performances", EURASIP Journal on Audio, Speech, and Music Processing (JASMP), Special Issue on "Scalable Audio-Content Analysis", vol. 2010, Article ID 735854, 19 pages, 2010.
 * Annotation (dimensional): Arousal and valence [−2,−1, 0, 1, 2].
 * Link: Offline 
-* *Languages: English: 2491, Spanish: 5, French: 0, German: 0, Other: 6, Unknown 146, Total number of songs: 2648*
+* *Languages: English: 2491, Spanish: 5, French: 0, German: 0, Other: 6, Unknown 146, Total (from Metadata): 2648*
 
 #### CH818
 * Author: Hu, X., Yang, Y.
@@ -74,7 +74,7 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Paper: X. Hu and Y. Yang, "Cross-Dataset and Cross-Cultural Music Mood Prediction: A Case on Western and Chinese Pop Songs" in IEEE Transactions on Affective Computing, vol. 8, no. 02, pp. 228-240, 2017. doi: 10.1109/TAFFC.2016.2523503
 * Annotation (dimensional): Arousal and valence real values between [-10,10] for whole excerpt.
 * Link: *NOT AVAILABLE* (made available by Yi-Hsuan Yang).
-* *Languages: Mandarin: 818*
+* *Languages: Mandarin: 818, Total (from Metadata): 818*
 
 ### Speech Emotion Recognition Data sets
 #### RECOLA
