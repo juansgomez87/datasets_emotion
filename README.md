@@ -1,7 +1,7 @@
 # MER and SER Data sets
 
 ## Summary
-### MER Data sets
+### Music Emotion Recognition Data sets
 | Dataset | Year | Content | Format | Size | Annotation Type | Available |
 |:-------:|:----:|:-------:|:------:|:----:|:---------------:|:---------:|
 |4Q audio emotion|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Yes|
@@ -11,7 +11,7 @@
 |NTWICM|2010|2648 full songs|MP3|11.7GB|"Discrete" Dimensional|Yes|
 |CH818|2017|818 excerpts (30s long)|MP3|393MB|Dimensional|No|
 
-### SER Data sets
+### Speech Emotion Recognition Data sets
 | Dataset | Year | Content | Format | Size | Annotation Type | Language | Available |
 |:-------:|:----:|:-------:|:------:|:----:|:---------------:|:--------:|:---------:|
 |RECOLA/AVEC2015|2013|9.5 hours of multimodal recordings|WAV,MP4,CSV|3.6GB|Dimensional (Time-continuous A-V)|French|Yes|
@@ -20,7 +20,7 @@
 |MMDBESP|2019|xx hours of video recordings|MP4|10.6GB|Categorical (Fear, Surprise, Anger, Sadness, Happiness, Disgust)|Polish|Yes|
 
 ## Additional information
-### MER Data sets
+### Music Emotion Recognition Data sets
 #### 4Q Emotion Dataset
 * Author: Panda R., Malheiro R., Paiva R. P.
 * Description and music styles: Mostly popularly consumed 
@@ -76,7 +76,7 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Link: *NOT AVAILABLE* (made available by Yi-Hsuan Yang).
 * *Languages: Mandarin: 818*
 
-### SER Data sets
+### Speech Emotion Recognition Data sets
 #### RECOLA
 * Author: Ringeval, F., Sonderegger, A., Sauer, J., Lalanne, D.
 * Description: Participants were recorded in dyads during a video conference while completing a task requiring collaboration. Different multimodal data, i.e., audio, video, ECG and EDA, were recorded continuously and synchronously.
