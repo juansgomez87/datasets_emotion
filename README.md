@@ -10,6 +10,7 @@
 |MoodsMIREX|2008|269 excerpts (30s long)|MP3|736MB|Categorical (5 mood clusters)|Yes|
 |NTWICM|2010|2648 full songs|MP3|11.7GB|"Discrete" Dimensional|
 |CH818|2017|818 excerpts (30s long)|MP3|393MB|Dimensional|
+|Emotify|?|?|MP3|?|Categorical (adjectives)|
 
 ### Speech Emotion Recognition Data sets
 | Dataset | Year | Content | Format | Size | Annotation Type | Language |
