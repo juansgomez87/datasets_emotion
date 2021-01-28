@@ -9,7 +9,7 @@ We propose a new user-centric conceptualization framework for MER, highlighting 
 
 This website offers a detailed overview of music and emotion datasets and extended bibliography. 
 
-![MER models](https://github.com/juansgomez87/datasets_emotion/blob/master/audio/challenges_spm.png)
+![MER models](https://github.com/juansgomez87/datasets_emotion/blob/master/img/challenges_spm.png)
 
 ## Music Emotion Recognition Datasets
 
@@ -18,16 +18,14 @@ This website offers a detailed overview of music and emotion datasets and extend
 |MoodsMIREX|2007|269 excerpts (30s long)|MP3|736MB|Categorical (5 mood clusters)|Perceived|
 |CAL500|2007|500 full songs|MP3|366MB|Categorical (174 labels)|Perceived|
 |Yang-Dim|2008|195 excerpts (25s long)| - | - |Dimensional|Perceived|
-|MoodSwings|2008|
-
+|MoodSwings|2008|240 excerpts (15s long)|
 |NTWICM|2010|2648 full songs|MP3|11.7GB|"Discrete" Dimensional|Perceived|
 |Soundtracks|2011|360+110 exceprts (15s-1m long)|MP3|216MB|Categorical (tension, anger, fear, happy, sad, tender) and Dimensional (valence, energy, tension)|Perceived|
 |CH818|2017|818 excerpts (30s long)|MP3|393MB|Dimensional|Perceived|
 |4Q audio emotion|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Perceived|
 |DEAM/Mediaeval|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|Perceived|
-
-|DEAP| | |MP3| | |
-|Emotify|?|?|MP3|?|Categorical (adjectives)|
+|DEAP| | |MP3| | |Induced
+|Emotify|?|?|MP3|?|Categorical (adjectives)|Perceived|
 
 ## Additional information
 #### Moods MIREX
@@ -52,6 +50,13 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Annotation strategy: Subjects (most college students) are asked to listen to a subset of music dataset and to choose two values, each ranges from -1.0 to 1.0 in 11 levels, to indicate their feeling about the AV values of the music sample. The ground truth is set as the mean of the AV values of all subjects tested. On the average, more than ten pairs of AV values are collected from the subjective test for each music sample.
 * Annotation (dimensional): Arousal and valence
 * Link: http://mac.citi.sinica.edu.tw/~yang/MER/taslp08/#Data
+
+#### MoodSwings
+* Author: 
+* Description and music styles: The dataset contains 195 popular songs from Western, Chinese, and Japanese albums. 
+* Annotation strategy: The authors US pop music to collect arousal and valence values in a time continuous annotations. Two players from a game used the mouse to annotate the segment over a continuous AV space.
+* Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
+* Link: http://music.ece.drexel.edu/research/emotion/moodswingsturk
 
 #### 4Q Emotion Dataset
 * Author: Panda R., Malheiro R., Paiva R. P.
