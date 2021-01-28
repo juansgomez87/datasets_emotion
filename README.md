@@ -77,25 +77,39 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 ## Extended bibliography
 #### Books
 [1] Meyer, L. B. (1961). Emotion and Meaning. University of Chicago Press.
+
 [2] Budd, M. (1992). Music and the Emotion. Routledge.
+
 [3] Huron, D. (2006). Sweet Anticipation. MIT Press.
+
 [4] Patel, A. D. (2008). Music, Language and the Brain. Oxford University Press.
-[5] Juslin, P. & Sloboda, J. (2010). Handook of Music and Emotion: Theory, Research, Applications. Oxford University Press.
+
+[5] Juslin, P. & Sloboda, J. (2010). Handook of Music and Emotion: Theory, Research, Applications. Oxford University Press. 
+
 [6] Krippendorff, K. H. (2004). Content Analysis: An Introduction to Its Methodology. SAGE Publications.
+
 [7] Tkalčič, M., De Carolis, B., de Gemmis, M., Odić, A., & Košir, A. (2016). Emotions and Personality in Personalized Services. Springer Nature.
+
 [8] Grekow, J. (2018). From Content-based Music Emotion Recognition to Emotion Maps of Musical Pieces. Springer Nature. 
 
 #### Articles
 
 
 #### PhD Thesis
-[1] Coutinho, E. (2008). Computational and Psycho-Physiological Investigations of Musical Emotions. University of Plymouth
+[1] Coutinho, E. (2008). Computational and Psycho-Physiological Investigations of Musical Emotions. University of Plymouth.
+
 [2] Hu, X. (2010). Improving music mood classification using lyrics, audio and social tags. University of Illinois.
+
 [3] Yang, Y.-H. (2010). Dimensional Music Emotion Recognition for Content Retrieval. National Tsing Hua University. 
-Laurier, C. (2011). Automatic Classification of Musical Mood by Content-Based Analysis. Universitat Pompeu Fabra. 
-Schmidt, E. (2012). Modeling and Predicting Emotion in Music. Drexel University. 
-Aljanaki, A. (2016). Emotion in Music: representation and computational modeling. Universiteit Utrecht.
-da Silva Mahleiro, R. M. (2016). Emotion-based Analysis and Classification of Music Lyrics. Universidade de Coimbra
+
+[4] Laurier, C. (2011). Automatic Classification of Musical Mood by Content-Based Analysis. Universitat Pompeu Fabra. 
+
+[5] Schmidt, E. (2012). Modeling and Predicting Emotion in Music. Drexel University. 
+
+[6] Aljanaki, A. (2016). Emotion in Music: representation and computational modeling. Universiteit Utrecht.
+
+[7] da Silva Mahleiro, R. M. (2016). Emotion-based Analysis and Classification of Music Lyrics. Universidade de Coimbra.
+
 Song, Y. (2016). The Role of Emotion and Context in Musical Preference. Queen Mary University of London.
 Barradas, G. T. (2017). A Cross-Cultural Approach to Psychological Mechanisms Underlying Emotional Reactions to Music. Upsala Universitet.
 Panda, R. (2019). Emotion-based Analysis and Classification of Audio Music Emotion. Universidade de Coimbra.
@@ -104,13 +118,15 @@ Panda, R. (2019). Emotion-based Analysis and Classification of Audio Music Emoti
 [Link to paper - *Not available yet*]()
 ```
 @article{Gómez-Cañón2021,
-author = {{Gómez-Cañón, Juan Sebastián and Cano, Estefanía and Gómez, Emilia and Herrera, Perfecto and Hu, Xiao and Yang, Yi-Hsuan}},
-title = {{Music Emotion Recognition: towards new robust standards in personalized and context-sensitive applications}},
-year = {2021},
-journal = {},
-number = {},
-pages = {},
-publisher = {},
-volume = {},
+    author = {{Gómez-Cañón, Juan Sebastián and 
+               Cano, Estefanía and 
+               Eerola, Tuomas and
+               Gómez, Emilia and 
+               Herrera, Perfecto and 
+               Hu, Xiao and 
+               Yang, Yi-Hsuan}},
+    title = {{Music Emotion Recognition: towards new robust standards in personalized and context-sensitive applications}},
+    year = {2021},
+    journal = {},
 }
 ```
