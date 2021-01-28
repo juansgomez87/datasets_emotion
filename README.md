@@ -18,14 +18,17 @@ This website offers a detailed overview of music and emotion datasets and extend
 |MoodsMIREX|2007|269 excerpts (30s long)|MP3|736MB|Categorical (5 mood clusters)|Perceived|
 |CAL500|2007|500 full songs|MP3|366MB|Categorical (174 labels)|Perceived|
 |Yang-Dim|2008|195 excerpts (25s long)| - | - |Dimensional|Perceived|
-|MoodSwings|2008|240 excerpts (15s long)|
+|MoodSwings|2008|240 excerpts (15s long)| - | - |Dimensional (Time-continuous A-V)|Perceived|
 |NTWICM|2010|2648 full songs|MP3|11.7GB|"Discrete" Dimensional|Perceived|
 |Soundtracks|2011|360+110 exceprts (15s-1m long)|MP3|216MB|Categorical (tension, anger, fear, happy, sad, tender) and Dimensional (valence, energy, tension)|Perceived|
+|DEAP|2012|120 exceprts (60s long)|Links| - |Dimensional|Induced|
+|AMG1608|2015|1608 excerpts (30s long)|WAV|4.3GB|"Discrete" Dimensional|Perceived|
+|Emotify|2016|400 excerpts (60s long)|MP3|363MB|Categorical (GEMS)|Induced|
 |CH818|2017|818 excerpts (30s long)|MP3|393MB|Dimensional|Perceived|
-|4Q audio emotion|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Perceived|
+|4Q-emotion|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Perceived|
 |DEAM/Mediaeval|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|Perceived|
-|DEAP| | |MP3| | |Induced
-|Emotify|?|?|MP3|?|Categorical (adjectives)|Perceived|
+|Jamendo Moods and Themes|2019|18486 full songs|MP3|152GB|Categorical|Perceived|
+
 
 ## Additional information
 #### Moods MIREX
@@ -52,11 +55,53 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Link: http://mac.citi.sinica.edu.tw/~yang/MER/taslp08/#Data
 
 #### MoodSwings
-* Author: 
-* Description and music styles: The dataset contains 195 popular songs from Western, Chinese, and Japanese albums. 
-* Annotation strategy: The authors US pop music to collect arousal and valence values in a time continuous annotations. Two players from a game used the mouse to annotate the segment over a continuous AV space.
+* Author: Kim, Y., Schmidt, E., Emelle, L.
+* Description and music styles: The authors used US pop music to collect time-varying perception of emotions.
+* Annotation strategy: Two players from a game used the mouse to annotate the segment over a continuous AV space.
 * Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
-* Link: http://music.ece.drexel.edu/research/emotion/moodswingsturk
+* Link: Offline
+
+#### NTWICM: Now That's What I Call Music
+* Author: Schuller, B., Dorfner, J., Gerhard, R.
+* Description and music styles: For building up a ground truth music database the compilation “Now That’s What I Call Music!” (U. K. series, volumes 1–69, double CDs, each) is selected. It represents very well most music styles which are popular today; that ranges from Pop and Rock music over Rap, R&B to electronic dance music as Techno or House.
+* Annotation strategy: 4 raters gave static annotations for complete songs for arousal and valence in a discrete range of [−2,−1, 0, 1, 2]. 
+* Annotation (dimensional): Arousal and valence [−2,−1, 0, 1, 2].
+* Link: Offline 
+
+#### Soundtracks
+* Author: Eerola, T. & Vuoskoski, J. K.
+* Description and music styles: This dataset we refer to as "Film soundtracks" are designed to overcome at least some of the problems mentioned above since they contain not that well known examples (although some could be identified by film aficionados).
+* Annotation strategy: The selection of the excerpts has been done in terms of dimensional and discrete emotion model and evaluated by a pilot study. The initial ratings were made by 12 expert musicologists for both dimensional and discrete models. These ratings were then re-tested with 116 university students.
+* Annotation: categorical and dimensional
+* Link: https://osf.io/p6vkg/
+
+#### DEAP
+* Author: Koelstra, S., Muehl, C., Soleymani, M., Lee, J.-S., Yazdani, A., Ebrahimi, T., Pun, T., Nijholt, A., Patras, I.
+* Description and music styles: From the 120 original videos from YouTube, 60 were manually selected, while the remaining 60 were selected via Last.FM affective tags. EEG and physiological signals were recorded and each participant also rated the videos as above. For 22 participants frontal face video was also recorded.
+* Annotation strategy: The participants ratings, physiological recordings and face video of an experiment where 32 volunteers (mostly European students) watched a subset of 40 of the above music videos. EEG and physiological signals were recorded and each participant also rated the videos as above. For 22 participants frontal face video was also recorded.
+* Annotation: Dimensional (arousal, valence, and dominance)
+* Link: http://www.eecs.qmul.ac.uk/mmv/datasets/deap/
+
+#### AMG1608
+* Author: Chen, Y.-A, Yang, Y.-H., Wang, J.-C., Chen, H.-H.
+* Description and music styles: The dataset contemporary Western music from AMG, which has 34 distinct mood categories defined by music editors.
+* Annotation strategy: Each subject is asked to annotate 13 songs and the subject can annotate a song by placing the cursor on the panel to indicate the location of the perceived VA value of the song.
+* Annotation (dimensional): Arousal and valence real values between [-1,1] for whole excerpt.
+* Link: https://amg1608.blogspot.com/
+
+#### Emotify
+* Author: Aljanaki, A., Wiering, F., Veltkamp, R.C.
+* Description and music styles: The selected songs include mainly four genres (rock, classical, pop and electronic) music. 
+* Annotation strategy: The annotations were collected using GEMS scale (Geneva Emotional Music Scales). The annotations produced by the game are spread unevenly among the songs, which is caused both by design of the experiment and design of the game. Participants could skip songs and switch between genres, and they were encouraged to do so, because induced emotional response does not automatically occur on every music listening occasion. 
+* Annotation (categorical): Nine categories (amazement, solemnity, tenderness, nostalgia, calmness, power, joyful activation, tension, sadness)
+* Link: http://www2.projects.science.uu.nl/memotion/emotifydata/
+
+#### CH818
+* Author: Hu, X., Yang, Y.
+* Description and music styles: Chinese Pop songs released in Taiwan, Hong Kong and Mainland China.
+* Annotation strategy: Each clip was annotated by three music experts who were born and raised in Mainland China and thus were with a Chinese cultural background. The annotation was done with an interface consisting of two sliding bars of continuous real values between [-10,10]. 
+* Annotation (dimensional): Arousal and valence real values between [-10,10] for whole excerpt.
+* Link: Offline
 
 #### 4Q Emotion Dataset
 * Author: Panda R., Malheiro R., Paiva R. P.
@@ -64,7 +109,6 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Annotation strategy: Collected from AllMusic API, emotion tags are selected from the original AllMusic Tags by intersecting them with the Warriner’s list. Finally, a manual blind validation is conducted by subjects.
 * Annotation (categorical): Q1 (A+V+), Q2 (A+V-), Q3(A-V-), Q4 (A-V+)
 * Link: http://mir.dei.uc.pt/downloads.html 
-
 
 #### DEAM: MediaEval Database for Emotional Analysis in Music
 * Author: Soleymani, M., Aljanaki, A., Yang, Y.
@@ -74,30 +118,11 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
 * Link: http://cvml.unige.ch/databases/DEAM/
 
-
-#### Soundtracks
-* Author: Eerola, T. & Vuoskoski, J. K.
-* Description and music styles: This dataset we refer to as "Film soundtracks" are designed to overcome at least some of the problems mentioned above since they contain not that well known examples (although some could be identified by film aficionados).
-* Annotation strategy: The selection of the excerpts has been done in terms of dimensional and discrete emotion model and evaluated by a pilot study. The initial ratings were made by 12 expert musicologists for both dimensional and discrete models. These ratings were then re-tested with 116 university students.
-* Annotation: categorical and dimensional
-* Link: https://osf.io/p6vkg/
-
-
-
-#### NTWICM: Now That's What I Call Music
-* Author: Schuller, B., Dorfner, J., Gerhard, R.
-* Description and music styles: For building up a ground truth music database the compilation “Now That’s What I Call Music!” (U. K. series, volumes 1–69, double CDs, each) is selected. It represents very well most music styles which are popular today; that ranges from Pop and Rock music over Rap, R&B to electronic dance music as Techno or House.
-* Annotation strategy: 4 raters gave static annotations for complete songs for arousal and valence in a discrete range of [−2,−1, 0, 1, 2]. 
-* Annotation (dimensional): Arousal and valence [−2,−1, 0, 1, 2].
-* Link: Offline 
-
-
-#### CH818
-* Author: Hu, X., Yang, Y.
-* Description and music styles: Chinese Pop songs released in Taiwan, Hong Kong and Mainland China.
-* Annotation strategy: Each clip was annotated by three music experts who were born and raised in Mainland China and thus were with a Chinese cultural background. The annotation was done with an interface consisting of two sliding bars of continuous real values between [-10,10]. 
-* Annotation (dimensional): Arousal and valence real values between [-10,10] for whole excerpt.
-* Link: Offline
+#### Jamendo Mood and Theme Subset
+* Author: Bogdanov, D., Porter A., Tovstogan P., & Won M. 
+* Description and music styles: The MTG-Jamendo Dataset is an open dataset for music auto-tagging and a subset of the dataset is used in the Emotion and Theme Recognition in Music Task within MediaEval 2019. The dataset contains 87 genre tags, so there is style diversity. 
+* Annotation strategy: The 56 mood/theme tags were crowdsourced from social media tags on the Jamendo platform. Hence, the annotations can be single- or multi-labeled depending on the excerpt. 
+* Link: https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/
 
 ## Extended bibliography
 #### Reviews on MER
@@ -108,7 +133,6 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 [3] Yang, Y.-H., & Chen, H. H. (2012). Machine Recognition of Music Emotion: A Review. ACM Transactions on Intelligent Systems and Technology, 3. 
 
 [4] Yang, X, Dong, Y., & Li, J. (2018). Review of data features-based music emotion recognition methods. Multimedia Systems, 24(4), pp. 365–389. 
-
 
 #### Articles
 
@@ -166,17 +190,19 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 
 [4] Laurier, C. (2011). Automatic Classification of Musical Mood by Content-Based Analysis. Universitat Pompeu Fabra. 
 
-[5] Schmidt, E. (2012). Modeling and Predicting Emotion in Music. Drexel University. 
+[5] Vuoskoski, J.K. (2012). Emotions represented and induced by music: the role of individual differences. University of Jyväskylä.
 
-[6] Aljanaki, A. (2016). Emotion in Music: representation and computational modeling. Universiteit Utrecht.
+[6] Schmidt, E. (2012). Modeling and Predicting Emotion in Music. Drexel University. 
 
-[7] da Silva Mahleiro, R. M. (2016). Emotion-based Analysis and Classification of Music Lyrics. Universidade de Coimbra.
+[7] Aljanaki, A. (2016). Emotion in Music: representation and computational modeling. Universiteit Utrecht.
 
-[8] Song, Y. (2016). The Role of Emotion and Context in Musical Preference. Queen Mary University of London.
+[8] da Silva Mahleiro, R. M. (2016). Emotion-based Analysis and Classification of Music Lyrics. Universidade de Coimbra.
 
-[9] Barradas, G. T. (2017). A Cross-Cultural Approach to Psychological Mechanisms Underlying Emotional Reactions to Music. Uppsala Universitet.
+[9] Song, Y. (2016). The Role of Emotion and Context in Musical Preference. Queen Mary University of London.
 
-[10] Panda, R. (2019). Emotion-based Analysis and Classification of Audio Music Emotion. Universidade de Coimbra.
+[10] Barradas, G. T. (2017). A Cross-Cultural Approach to Psychological Mechanisms Underlying Emotional Reactions to Music. Uppsala Universitet.
+
+[11] Panda, R. (2019). Emotion-based Analysis and Classification of Audio Music Emotion. Universidade de Coimbra.
 
 ## Publication
 [Link to paper - *Not available yet*]()
