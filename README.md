@@ -27,7 +27,10 @@ This website offers a detailed overview of music and emotion datasets and extend
 |CH818|2017|818 excerpts (30s long)|MP3|393MB|Dimensional|Perceived|
 |4Q-emotion|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Perceived|
 |DEAM/Mediaeval|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|Perceived|
+|PMEmo|2018|794 full songs|MP3|1.3GB|Dimensional (Time-continuous A-V)|Induced|
 |Jamendo Moods and Themes|2019|18486 full songs|MP3|152GB|Categorical|Perceived|
+|VGMIDI|2019|200 MIDI files|MIDI|1.37GB|Dimensional|Perceived|
+|CCMED/WCMED|2020|800 excerpts (8-20s long)|WAV| - |"Discrete" Dimensional|Perceived|
 
 
 ## Additional information
@@ -66,7 +69,7 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Description and music styles: For building up a ground truth music database the compilation “Now That’s What I Call Music!” (U. K. series, volumes 1–69, double CDs, each) is selected. It represents very well most music styles which are popular today; that ranges from Pop and Rock music over Rap, R&B to electronic dance music as Techno or House.
 * Annotation strategy: 4 raters gave static annotations for complete songs for arousal and valence in a discrete range of [−2,−1, 0, 1, 2]. 
 * Annotation (dimensional): Arousal and valence [−2,−1, 0, 1, 2].
-* Link: Offline 
+* Link: http://openaudio.eu/NTWICM-Mood-Annotation.arff (annotations) 
 
 #### Soundtracks
 * Author: Eerola, T. & Vuoskoski, J. K.
@@ -118,11 +121,33 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
 * Link: http://cvml.unige.ch/databases/DEAM/
 
+#### PMEmo
+* Author: Zhang, K., Zhang, H., Li, S., Yang, C., Sun, L.
+* Description and music styles: The authors gathered songs popular all around the world: the Billboard Hot 100, the iTunes Top 100 Songs (USA), and the UK Top 40 Singles Chart. They obtained songs available from these charts from 2016 to 2017.
+* Annotation strategy: Similar to DEAM, the annotation was done with the slider to collect dynamic annotations at a sampling rate of 2 Hz. Additionally, annotators should make a static annotation for the whole music excerpt on nine-point scale after finishing dynamic labelling. A total of 457 subjects (236 females and 221 males) are recruited to participate in this work. The electrodermal activity was sampled continuously at a sampling rate of 50 Hz.
+* Annotation (dimensional): Time-continuous arousal and valence annotation (2 Hz)
+* Link: https://github.com/HuiZhangDB/PMEmo
+
 #### Jamendo Mood and Theme Subset
 * Author: Bogdanov, D., Porter A., Tovstogan P., & Won M. 
 * Description and music styles: The MTG-Jamendo Dataset is an open dataset for music auto-tagging and a subset of the dataset is used in the Emotion and Theme Recognition in Music Task within MediaEval 2019. The dataset contains 87 genre tags, so there is style diversity. 
 * Annotation strategy: The 56 mood/theme tags were crowdsourced from social media tags on the Jamendo platform. Hence, the annotations can be single- or multi-labeled depending on the excerpt. 
+* Annotation (categorical): 56 mood/theme tags
 * Link: https://multimediaeval.github.io/2019-Emotion-and-Theme-Recognition-in-Music-Task/
+
+#### VGMIDI
+* Author: Ferreira, L., Whitehead, J.
+* Description and music styles: VGMIDI is a dataset of 200 MIDI labelled piano pieces (video game soundtracks).
+* Annotation strategy: Each piece was annotated by 30 human subjects according to a valence-arousal model of emotion. The authors ask the annotators to write two to three sentences describing the short pieces they listened to.
+* Annotation (dimensional): Time-continuous arousal and valence annotation
+* Link: https://github.com/lucasnfe/vgmidi
+
+#### CCMED/WCMED
+* Author: Fan, J., Yang, Y.-H., Gong, K, Pasquier, P.
+* Description and music styles: The dataset contains 400 excerpts collected from Western classical music recordings and 400 excerpts collected from Chinese classical music recordings.
+* Annotation strategy: Two crowdsourcing experiments were carried out to collect emotional annotations (arousal and valence). The authors used a ranking-based method. Instead of providing absolute ratings, participants do pairwise comparisons by deciding which audio excerpt has higher arousal/valence.
+* Annotation (dimensional): Arousal and valence real values between [-1,1] for whole excerpt.
+* Link: https://metacreation.net/ccmed_wcmed_soundscape/
 
 ## Extended bibliography
 #### Reviews on MER
@@ -163,6 +188,7 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 [13] Jackson, J. C. et al. (2019). Emotion semantics show both cultural variation and universal structure. Science, pp. 1517–1522.
 
 [14] Keltner, D., et al. (2019). What Basic Emotion Theory Really Says for the Twenty-First Century Study of Emotion. Journal of Nonverbal Behavior, 43(2), pp.195–201. 
+
 
 #### Books
 [1] Meyer, L. B. (1961). Emotion and Meaning. University of Chicago Press.
