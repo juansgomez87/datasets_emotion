@@ -15,7 +15,7 @@ This website offers a detailed overview of music and emotion datasets and extend
 
 | Dataset | Year | Content | Format | Size | Type | Perceived/Induced |
 |:-------:|:----:|:-------:|:------:|:----:|:----:|:-----------------:|
-|[MoodsMIREX][#### Moods MIREX]|2007|269 excerpts (30s long)|MP3|736MB|Categorical (5 mood clusters)|Perceived|
+|MoodsMIREX|2007|269 excerpts (30s long)|MP3|736MB|Categorical (5 mood clusters)|Perceived|
 |CAL500|2007|500 full songs|MP3|366MB|Categorical (174 labels)|Perceived|
 |Yang-Dim|2008|195 excerpts (25s long)| - | - |Dimensional|Perceived|
 |MoodSwings|2008|240 excerpts (15s long)| - | - |Dimensional (Time-continuous A-V)|Perceived|
