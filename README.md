@@ -15,7 +15,7 @@ This website offers a detailed overview of music and emotion datasets and extend
 
 | Dataset | Year | Content | Format | Size | Type | Perceived/Induced |
 |:-------:|:----:|:-------:|:------:|:----:|:----:|:-----------------:|
-|[MoodsMIREX](####Moods MIREX)|2007|269 excerpts (30s long)|MP3|736MB|Categorical (5 mood clusters)|Perceived|
+|[MoodsMIREX](#### Moods MIREX)|2007|269 excerpts (30s long)|MP3|736MB|Categorical (5 mood clusters)|Perceived|
 |CAL500|2007|500 full songs|MP3|366MB|Categorical (174 labels)|Perceived|
 |Yang-Dim|2008|195 excerpts (25s long)| - | - |Dimensional|Perceived|
 |MoodSwings|2008|240 excerpts (15s long)| - | - |Dimensional (Time-continuous A-V)|Perceived|
@@ -34,7 +34,7 @@ This website offers a detailed overview of music and emotion datasets and extend
 
 
 ## Additional information
-####Moods MIREX
+#### Moods MIREX
 * Author: Hu, X., Downie, J.S., Laurier, C., Bay, M., Ehmann, A.F.
 * Description and music styles: Selection of the libraries of Associated Production Music (APM), “the world’s leading production music library… offering every imaginable music genre from beautiful classical music recordings to vintage rock to current indie band sounds".
 * Annotation strategy: The pieces were rated by 3 raters, and only a subset of agreement by 2 out of 3 is extracted. 
