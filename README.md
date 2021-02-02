@@ -38,7 +38,7 @@ This website offers a detailed overview of music and emotion datasets and extend
 |[4Q-emotion](#4q-emotion-dataset)|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Perceived|
 |[DEAM/Mediaeval](#mediaeval-database-for-emotional-analysis-in-music)|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|Perceived|
 |[PMEmo](#pmemo)|2018|794 full songs|MP3|1.3GB|Dimensional (Time-continuous A-V)|Induced|
-m|[Jamendo Moods and Themes](#jamendo Mood-and-theme-subset)|2019|18486 full songs|MP3|152GB|Categorical|Perceived|
+|[Jamendo Moods and Themes](#jamendo-mood-and-theme-subset)|2019|18486 full songs|MP3|152GB|Categorical|Perceived|
 |[VGMIDI](#vgmidi)|2019|200 MIDI files|MIDI|1.37GB|Dimensional|Perceived|
 |[CCMED-WCMED](#ccmed-wcmed)|2020|800 excerpts (8-20s long)|WAV| - |"Discrete" Dimensional|Perceived|
 
