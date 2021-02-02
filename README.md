@@ -9,6 +9,16 @@ We propose a new user-centric conceptualization framework for MER, highlighting 
 
 This website offers a detailed overview of music and emotion datasets and extended bibliography. 
 
+## Contents
+1. [Music Emotion Recognition Datasets](#music-emotion-recognition-datasets)
+1.1. [Additional information](#additional-information)
+2. [Extended bibliography](#extended-bibliography
+2.1. [Reviews on MER](#reviews-on-mer)
+2.2. [Articles](#articles)
+2.3. [Books](#books)
+2.4. [PhD Dissertations](#phd-dissertations)
+3. [Publication](#publication)
+
 ![MER models](https://github.com/juansgomez87/datasets_emotion/blob/master/img/challenges_spm.png)
 
 ## Music Emotion Recognition Datasets
@@ -16,22 +26,21 @@ This website offers a detailed overview of music and emotion datasets and extend
 | Dataset | Year | Content | Format | Size | Type | Perceived/Induced |
 |:-------:|:----:|:-------:|:------:|:----:|:----:|:-----------------:|
 |[MoodsMIREX](#moods-mirex)|2007|269 excerpts (30s long)|MP3|736MB|Categorical (5 mood clusters)|Perceived|
-|CAL500|2007|500 full songs|MP3|366MB|Categorical (174 labels)|Perceived|
-|Yang-Dim|2008|195 excerpts (25s long)| - | - |Dimensional|Perceived|
-|MoodSwings|2008|240 excerpts (15s long)| - | - |Dimensional (Time-continuous A-V)|Perceived|
-|NTWICM|2010|2648 full songs|MP3|11.7GB|"Discrete" Dimensional|Perceived|
-|Soundtracks|2011|360+110 exceprts (15s-1m long)|MP3|216MB|Categorical (tension, anger, fear, happy, sad, tender) and Dimensional (valence, energy, tension)|Perceived|
-|DEAP|2012|120 exceprts (60s long)|Links| - |Dimensional|Induced|
-|AMG1608|2015|1608 excerpts (30s long)|WAV|4.3GB|"Discrete" Dimensional|Perceived|
-|Emotify|2016|400 excerpts (60s long)|MP3|363MB|Categorical (GEMS)|Induced|
-|CH818|2017|818 excerpts (30s long)|MP3|393MB|Dimensional|Perceived|
-|4Q-emotion|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Perceived|
-|DEAM/Mediaeval|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|Perceived|
-|PMEmo|2018|794 full songs|MP3|1.3GB|Dimensional (Time-continuous A-V)|Induced|
-|Jamendo Moods and Themes|2019|18486 full songs|MP3|152GB|Categorical|Perceived|
-|VGMIDI|2019|200 MIDI files|MIDI|1.37GB|Dimensional|Perceived|
-|CCMED/WCMED|2020|800 excerpts (8-20s long)|WAV| - |"Discrete" Dimensional|Perceived|
-
+|[CAL500](#cal500)|2007|500 full songs|MP3|366MB|Categorical (174 labels)|Perceived|
+|[Yang-Dim](#yang-dim)|2008|195 excerpts (25s long)| - | - |Dimensional|Perceived|
+|[MoodSwings](#moodswings)|2008|240 excerpts (15s long)| - | - |Dimensional (Time-continuous A-V)|Perceived|
+|[NTWICM](#now-thats-what-i-call-music)|2010|2648 full songs|MP3|11.7GB|"Discrete" Dimensional|Perceived|
+|[Soundtracks](#soundtracks)|2011|360+110 exceprts (15s-1m long)|MP3|216MB|Categorical (tension, anger, fear, happy, sad, tender) and Dimensional (valence, energy, tension)|Perceived|
+|[DEAP](#deap)|2012|120 exceprts (60s long)|Links| - |Dimensional|Induced|
+|[AMG1608](#amg1608)|2015|1608 excerpts (30s long)|WAV|4.3GB|"Discrete" Dimensional|Perceived|
+|[Emotify](#emotify)|2016|400 excerpts (60s long)|MP3|363MB|Categorical (GEMS)|Induced|
+|[CH818](#ch818)|2017|818 excerpts (30s long)|MP3|393MB|Dimensional|Perceived|
+|[4Q-emotion](#4q-emotion-dataset)|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Perceived|
+|[DEAM/Mediaeval](#mediaeval-database-for-emotional-analysis-in-music)|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|Perceived|
+|[PMEmo](#pmemo)|2018|794 full songs|MP3|1.3GB|Dimensional (Time-continuous A-V)|Induced|
+m|[Jamendo Moods and Themes](#jamendo Mood-and-theme-subset)|2019|18486 full songs|MP3|152GB|Categorical|Perceived|
+|[VGMIDI](#vgmidi)|2019|200 MIDI files|MIDI|1.37GB|Dimensional|Perceived|
+|[CCMED-WCMED](#ccmed-wcmed)|2020|800 excerpts (8-20s long)|WAV| - |"Discrete" Dimensional|Perceived|
 
 ## Additional information
 #### Moods MIREX
@@ -64,7 +73,7 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Annotation (dimensional): Time-continuous arousal and valence annotation (1 Hz)
 * Link: Offline
 
-#### NTWICM: Now That's What I Call Music
+#### Now That's What I Call Music
 * Author: Schuller, B., Dorfner, J., Gerhard, R.
 * Description and music styles: For building up a ground truth music database the compilation “Now That’s What I Call Music!” (U. K. series, volumes 1–69, double CDs, each) is selected. It represents very well most music styles which are popular today; that ranges from Pop and Rock music over Rap, R&B to electronic dance music as Techno or House.
 * Annotation strategy: 4 raters gave static annotations for complete songs for arousal and valence in a discrete range of [−2,−1, 0, 1, 2]. 
@@ -113,7 +122,7 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Annotation (categorical): Q1 (A+V+), Q2 (A+V-), Q3(A-V-), Q4 (A-V+)
 * Link: http://mir.dei.uc.pt/downloads.html 
 
-#### DEAM: MediaEval Database for Emotional Analysis in Music
+#### MediaEval Database for Emotional Analysis in Music
 * Author: Soleymani, M., Aljanaki, A., Yang, Y.
 * Description and music styles: Royalty-free music from several sources: freemusicarchive.org (FMA), jamendo.com,
 and the medleyDB datase. The excerpts which were annotated are available in the same package song ids between 1 and 2058. The dataset consists of 2014 development set (744 songs), 2014 evaluation set (1000 songs) and 2015 evaluation set (58 songs). Includes rock, pop, soul, blues, electronic, classical, hip-hop, international, experimental, folk, jazz, country and pop genres.
@@ -142,7 +151,7 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Annotation (dimensional): Time-continuous arousal and valence annotation
 * Link: https://github.com/lucasnfe/vgmidi
 
-#### CCMED/WCMED
+#### CCMED-WCMED
 * Author: Fan, J., Yang, Y.-H., Gong, K, Pasquier, P.
 * Description and music styles: The dataset contains 400 excerpts collected from Western classical music recordings and 400 excerpts collected from Chinese classical music recordings.
 * Annotation strategy: Two crowdsourcing experiments were carried out to collect emotional annotations (arousal and valence). The authors used a ranking-based method. Instead of providing absolute ratings, participants do pairwise comparisons by deciding which audio excerpt has higher arousal/valence.
