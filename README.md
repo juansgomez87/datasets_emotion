@@ -11,12 +11,12 @@ This website offers a detailed overview of music and emotion datasets and extend
 
 ## Contents
 1. [Music Emotion Recognition Datasets](#music-emotion-recognition-datasets)
-1.1. [Additional information](#additional-information)
-2. [Extended bibliography](#extended-bibliography
-2.1. [Reviews on MER](#reviews-on-mer)
-2.2. [Articles](#articles)
-2.3. [Books](#books)
-2.4. [PhD Dissertations](#phd-dissertations)
+    1. [Additional information](#additional-information)
+2. [Extended bibliography](#extended-bibliography)
+    1. [Reviews on MER](#reviews-on-mer)
+    2. [Articles](#articles)
+    3. [Books](#books)
+    4. [PhD Dissertations](#phd-dissertations)
 3. [Publication](#publication)
 
 ![MER models](https://github.com/juansgomez87/datasets_emotion/blob/master/img/challenges_spm.png)
