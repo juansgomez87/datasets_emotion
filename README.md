@@ -9,7 +9,7 @@ We propose a new user-centric conceptualization framework for MER, highlighting 
 
 This website offers a detailed overview of music and emotion datasets and extended bibliography. 
 
-## Contents
+## Table of Contents
 1. [Music Emotion Recognition Datasets](#music-emotion-recognition-datasets)
     1. [Additional information](#additional-information)
 2. [Extended bibliography](#extended-bibliography)
