@@ -9,6 +9,8 @@ We propose a new user-centric conceptualization framework for MER, highlighting 
 
 This website offers a detailed overview of music and emotion datasets and an extended bibliography. 
 
+[Link to author manuscript](https://github.com/juansgomez87/datasets_emotion/tree/master/paper/SPM_JSGC.pdf)
+
 ## Table of Contents
 1. [Music Emotion Recognition Datasets](#music-emotion-recognition-datasets)
     1. [Additional information](#additional-information)
@@ -316,18 +318,18 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 [14] Fan, J. (2020). Advances in Soundscape and Music Emotion Recognition. Simon Fraser University.
 
 ## Publication
-[Link to paper - *Not available yet*]()
+
 ```
-@article{Gómez-Cañón2021,
-    author = {{Gómez-Cañón, Juan Sebastián and 
-               Cano, Estefanía and 
-               Eerola, Tuomas and
-               Gómez, Emilia and 
-               Herrera, Perfecto and 
-               Hu, Xiao and 
-               Yang, Yi-Hsuan}},
-    title = {{Music Emotion Recognition: towards new robust standards in personalized and context-sensitive applications}},
-    year = {2021},
-    journal = {},
+@article{GomezCanon2021,
+author = {Gómez-Cañón, Juan Sebastián and 
+           Cano, Estefanía and 
+           Eerola, Tuomas and
+           Herrera, Perfecto and 
+           Hu, Xiao and 
+           Yang, Yi-Hsuan and
+           Gómez Emilia},
+title = {{Music Emotion Recognition: towards new robust standards in personalized and context-sensitive applications}},
+year = {2021},
+journal = {IEEE Signal Processing Magazine},
 }
 ```
