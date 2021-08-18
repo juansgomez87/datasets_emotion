@@ -9,7 +9,7 @@ We propose a new user-centric conceptualization framework for MER, highlighting 
 
 This website offers a detailed overview of music and emotion datasets and an extended bibliography. 
 
-[Link to author manuscript](https://github.com/juansgomez87/datasets_emotion/tree/master/paper/SPM_JSGC.pdf)
+[Link to paper - *Not available yet*]()
 
 ## Table of Contents
 1. [Music Emotion Recognition Datasets](#music-emotion-recognition-datasets)
