@@ -9,7 +9,7 @@ We propose a new user-centric conceptualization framework for MER, highlighting 
 
 This website offers a detailed overview of music and emotion datasets and an extended bibliography. 
 
-[Link to accepted paper](https://github.com/juansgomez87/datasets_emotion/tree/master/paper/SPM_2021_MER_author.pdf)
+[Link to preprint](https://github.com/juansgomez87/datasets_emotion/tree/master/paper/SPM_2021_MER_author.pdf)
 
 ## Table of Contents
 1. [Music Emotion Recognition Datasets](#music-emotion-recognition-datasets)
@@ -226,65 +226,71 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 
 [7] Coutinho, E., & Schuller, B. (2017). Shared acoustic codes underlie emotional communication in music and -speech—evidence from deep transfer learning. PLoS ONE, 12(6).
 
-[8] Cancino-Chacón, C.E., et al. (2018). Computational Models of Expressive Music Performance: A Comprehensive and Critical Review. Frontiers in Digital Humanities, 5.
+[8] Yang, S., et al. (2017). Multi-scale Analysis of Agreement Levels in Perceived Emotion Ratings During Live Performance. Late-Breaking/Demo of the 18th International Society for Music Information Retrieval Conference (ISMIR), Suzhou, China.
 
-[9] Korzeniowski, F. et al. (2020). Mood Classification using Listening Data. In Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR). Virtual.
+[9] Cancino-Chacón, C.E., et al. (2018). Computational Models of Expressive Music Performance: A Comprehensive and Critical Review. Frontiers in Digital Humanities, 5.
 
-[10] Chaki, S., et al. (2020). Explaining perceived emotion predictions in music: an attentive approach. In Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR). Virtual.
+[10] Korzeniowski, F. et al. (2020). Mood Classification using Listening Data. In Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR). Virtual.
 
-[11] Hung, H.T., et al. (2021). EMOPIA: A Multi-Modal Pop Piano Dataset For Emotion Recognition and Emotion-based Music Generation. In Proceedings of the 22nd International Society for Music Information Retrieval Conference (ISMIR). Virtual. 
+[11] Chaki, S., et al. (2020). Explaining perceived emotion predictions in music: an attentive approach. In Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR). Virtual.
+
+[12] Hung, H.T., et al. (2021). EMOPIA: A Multi-Modal Pop Piano Dataset For Emotion Recognition and Emotion-based Music Generation. In Proceedings of the 22nd International Society for Music Information Retrieval Conference (ISMIR). Virtual. 
+
+[13] Yang, S., et al. (2021). Examining emotion perception agreement in live music performance. IEEE Transactions on Affective Computing. 
 
 ##### Lyrics
 
-[12] Laurier, C. et al. (2008). Multimodal music mood classification using audio and lyrics. In Proceedings of the 7th International Conference on Machine Learning and Applications, San Diego, USA.
+[1] Laurier, C. et al. (2008). Multimodal music mood classification using audio and lyrics. In Proceedings of the 7th International Conference on Machine Learning and Applications, San Diego, USA.
 
-[13] Hu, X. & Downie, J.S. (2010) When lyrics outperform audio for music mood classification: a feature analysis. In Proceedings of the 11th International Society for Music Information Retrieval Conference (ISMIR), Utrecht, The Netherlands, pp. 619-624.
+[2] Hu, X. & Downie, J.S. (2010) When lyrics outperform audio for music mood classification: a feature analysis. In Proceedings of the 11th International Society for Music Information Retrieval Conference (ISMIR), Utrecht, The Netherlands, pp. 619-624.
 
-[14] Kermanidis, K. et al. (2014). Combining Language Modeling and LSA on Greek Song "Words" for Mood Classification. International Journal on Artificial Intelligence Tools, 23(2).
+[3] Kermanidis, K. et al. (2014). Combining Language Modeling and LSA on Greek Song "Words" for Mood Classification. International Journal on Artificial Intelligence Tools, 23(2).
 
-[15] Çano, E. & Morisio, M. (2017). MoodyLyrics: A Sentiment Annotated Lyrics Dataset. In Proceeedings of the International Conference on Intelligent Systems, Metaheuristics and Swarm Intelligence (ISMI), pp. 118-124.
+[4] Çano, E. & Morisio, M. (2017). MoodyLyrics: A Sentiment Annotated Lyrics Dataset. In Proceeedings of the International Conference on Intelligent Systems, Metaheuristics and Swarm Intelligence (ISMI), pp. 118-124.
 
-[16] Delbouys, R., et al. (2018). Music Mood Detection Based on Audio and Lyrics with Deep Neural Net. In Proceedings of the 19th International Society for Music Information Retrieval Conference (ISMIR). Paris, France.
+[5] Delbouys, R., et al. (2018). Music Mood Detection Based on Audio and Lyrics with Deep Neural Net. In Proceedings of the 19th International Society for Music Information Retrieval Conference (ISMIR). Paris, France.
 
-[17] Malheiro, R., et al. (2018). Emotionally-Relevant Features for Classification and Regression of Music Lyrics. IEEE Transactions on Affective Computing, 9(2). 
+[6] Malheiro, R., et al. (2018). Emotionally-Relevant Features for Classification and Regression of Music Lyrics. IEEE Transactions on Affective Computing, 9(2). 
 
 ##### Annotation gathering
 
-[18] Aljanaki, A., Wiering, F., & Veltkamp, R. C. (2015). Studying emotion induced by music through a crowdsourcing game. Information Processing and Management, 52, pp. 115–128. 
+[1] Aljanaki, A., Wiering, F., & Veltkamp, R. C. (2015). Studying emotion induced by music through a crowdsourcing game. Information Processing and Management, 52, pp. 115–128. 
 
-[19] Çano, E. (2017). Crowdsourcing emotions in music domain. International Journal of Artificial Intelligence and Applications, 8(4), pp. 24-40. 
+[2] Çano, E. (2017). Crowdsourcing emotions in music domain. International Journal of Artificial Intelligence and Applications, 8(4), pp. 24-40. 
 
-[20] Gómez-Cañón, J.S., et al. (2020). Joyful for you and tender for us: the influence of individual characteristics on emotion labeling and classification. In Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR). Montréal, Canada (virtual).
+[3] Gómez-Cañón, J.S., et al. (2020). Joyful for you and tender for us: the influence of individual characteristics on emotion labeling and classification. In Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR). Montréal, Canada (virtual).
 
-[21] Gómez-Cañón, J.S., et al. (2020). Improving emotion annotation of music using citizen science. In Proceedings of the 16th International Conference on Music Perception and Cognition (ICMPC/ESCOM). Sheffield, United Kingdom (virtual). 
+[4] Gómez-Cañón, J.S., et al. (2020). Improving emotion annotation of music using citizen science. In Proceedings of the 16th International Conference on Music Perception and Cognition (ICMPC/ESCOM). Sheffield, United Kingdom (virtual). 
 
-[22] Gutiérrez-Páez, N., et al. (2021). Emotion annotation of music: a citizen science approach. In Proceedings of the 27th International Conference on Collaboration Technologies and Social Computing (CollabTech). Trier, Germany (virtual). 
+[5] Gutiérrez-Páez, N., et al. (2021). Emotion annotation of music: a citizen science approach. In Proceedings of the 27th International Conference on Collaboration Technologies and Social Computing (CollabTech). Trier, Germany (virtual). 
 
 ##### Context-sensitive models
 
-[23] Jackson, J. C., et al. (2019). Emotion semantics show both cultural variation and universal structure. Science, 366(6472), pp. 1517–1522. 
+[1] Jackson, J. C., et al. (2019). Emotion semantics show both cultural variation and universal structure. Science, 366(6472), pp. 1517–1522. 
 
-[24] Hu, X., & Yang, Y.-H. (2017). The Mood of Chinese Pop Music: Representation and Recognition. Journal of the American Society for Information Science and Technology, 68(8), pp. 1899–1910. 
+[2] Hu, X., & Yang, Y.-H. (2017). The Mood of Chinese Pop Music: Representation and Recognition. Journal of the American Society for Information Science and Technology, 68(8), pp. 1899–1910. 
 
-[25] Patra, B.G., et al. (2018). Multimodal mood classification of Hindi and Western songs. Journal of Intelligent Information Systems, 51, pp. 579-596. 
+[3] Patra, B.G., et al. (2018). Multimodal mood classification of Hindi and Western songs. Journal of Intelligent Information Systems, 51, pp. 579-596. 
 
-[26] Fan, J., et al. (2020). A Comparative Study of Western and Chinese Classical Music based on Soundscape Models. In Proceedings of the 45th International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Barcelona, Spain.
+[4] Fan, J., et al. (2020). A Comparative Study of Western and Chinese Classical Music based on Soundscape Models. In Proceedings of the 45th International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Barcelona, Spain.
 
-[27] Gómez-Cañón, J.S., et al. (2020). Transfer learning from speech to music: towards language-sensitive emotion recognition models. In Proceedings of the 28th European Signal Processing Conference (EUSIPCO). Amsterdam, The Netherlands (virtual.
+[5] Gómez-Cañón, J.S., et al. (2020). Transfer learning from speech to music: towards language-sensitive emotion recognition models. In Proceedings of the 28th European Signal Processing Conference (EUSIPCO). Amsterdam, The Netherlands (virtual).
 
-[28] Gómez-Cañón, J.S., et al. (2021). Language-sensitive Music Emotion Recognition models: are we really there yet? In Proceedings of the 46th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). Toronto, Canada (virtual).
+[6] Pandrea, A.G., et al. (2020). Cross-Dataset Music Emotion Recognition: an End-to-End Approach. Late-Breaking/Demo of the 21st International Society for Music Information Retrieval Conference (ISMIR). Montréal, Canada (virtual).
+
+[7] Gómez-Cañón, J.S., et al. (2021). Language-sensitive Music Emotion Recognition models: are we really there yet? In Proceedings of the 46th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). Toronto, Canada (virtual).
 
 ##### Personalized models
 
-[29] Yang, Y.-H., et al. (2007). Music Emotion Recognition: The Role of Individuality. Proceedings of the International Workshop on Human-Centered Multimedia, pp. 13–22. 
+[1] Yang, Y.-H., et al. (2007). Music Emotion Recognition: The Role of Individuality. Proceedings of the International Workshop on Human-Centered Multimedia, pp. 13–22. 
 
-[30] Yang, Y.-H. & Liu, J.-Y. (2013). Quantitative Study of Music Listening Behavior in a Social and Affective Context. IEEE Transactions on Multimedia (TMM), 15(6), pp. 1304-1315.
+[2] Yang, Y.-H. & Liu, J.-Y. (2013). Quantitative Study of Music Listening Behavior in a Social and Affective Context. IEEE Transactions on Multimedia, 15(6), pp. 1304-1315.
 
-[31] Yang, Y.-H. & Liu, J.-Y. (2015). Quantitative Study of Music Listening Behavior in a Smartphone Context. ACM Transactions on Interactive Intelligent Systems (TiiS). 5(3).
+[3] Yang, Y.-H. & Liu, J.-Y. (2015). Quantitative Study of Music Listening Behavior in a Smartphone Context. ACM Transactions on Interactive Intelligent Systems, 5(3).
 
-[32] Wang, J.C., et al. (2017). Affective Music Informaion Retrieval. In: Tkalčič M., et al. (eds) Emotions and Personality in Personalized Services. Human–Computer Interaction Series. Springer.
+[4] Wang, J.C., et al. (2017). Affective Music Information Retrieval. In: Tkalčič M., et al. (eds) Emotions and Personality in Personalized Services. Human–Computer Interaction Series. Springer.
 
-[33] Gómez-Cañón, J.S., et al. (2021). Let’s agree to disagree: consensus entropy active learning for personalized music emotion recognition. In Proceedings of the 22nd International Society for Music Information Retrieval Conference (ISMIR). Virtual. 
+[5] Gómez-Cañón, J.S., et al. (2021). Let’s agree to disagree: consensus entropy active learning for personalized music emotion recognition. In Proceedings of the 22nd International Society for Music Information Retrieval Conference (ISMIR). Virtual. 
 
 #### Books
 [1] Meyer, L. B. (1961). Emotion and Meaning. University of Chicago Press.
@@ -336,6 +342,8 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 
 [14] Fan, J. (2020). Advances in Soundscape and Music Emotion Recognition. Simon Fraser University.
 
+[15] Yang, S. (2020). Understanding Agreement and Disagreement in Listeners’ Perceived Emotion in Live Music Performance. Queen Mary University of London. 
+
 ## Publication
 
 ```
@@ -348,7 +356,10 @@ author = {Gómez-Cañón, Juan Sebastián and
            Yang, Yi-Hsuan and
            Gómez Emilia},
 title = {{Music Emotion Recognition: towards new robust standards in personalized and context-sensitive applications}},
-year = {2021},
 journal = {IEEE Signal Processing Magazine},
+volume = {38},
+issue = {6},
+year = {2021},
+doi = {10.1109/MSP.2021.3106232}
 }
 ```
