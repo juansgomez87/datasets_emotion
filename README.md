@@ -349,12 +349,12 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 ```
 @article{GomezCanon2021SPM,
 author = {Gómez-Cañón, Juan Sebastián and 
-           Cano, Estefanía and 
-           Eerola, Tuomas and
-           Herrera, Perfecto and 
-           Hu, Xiao and 
-           Yang, Yi-Hsuan and
-           Gómez Emilia},
+          Cano, Estefanía and 
+          Eerola, Tuomas and
+          Herrera, Perfecto and 
+          Hu, Xiao and 
+          Yang, Yi-Hsuan and
+          Gómez Emilia},
 title = {{Music Emotion Recognition: towards new robust standards in personalized and context-sensitive applications}},
 journal = {IEEE Signal Processing Magazine},
 volume = {38},
