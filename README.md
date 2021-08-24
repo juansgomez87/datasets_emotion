@@ -272,13 +272,15 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 
 [3] Patra, B.G., et al. (2018). Multimodal mood classification of Hindi and Western songs. Journal of Intelligent Information Systems, 51, pp. 579-596. 
 
-[4] Fan, J., et al. (2020). A Comparative Study of Western and Chinese Classical Music based on Soundscape Models. In Proceedings of the 45th International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Barcelona, Spain.
+[4] Sangnark, S., et al. (2019). Thai music emotion recognition based on western music. Proceedings of the 11th International Conference on Computer and Electrical Engineering. Tokyo, Japan.
 
-[5] Gómez-Cañón, J.S., et al. (2020). Transfer learning from speech to music: towards language-sensitive emotion recognition models. In Proceedings of the 28th European Signal Processing Conference (EUSIPCO). Amsterdam, The Netherlands (virtual).
+[5] Fan, J., et al. (2020). A Comparative Study of Western and Chinese Classical Music based on Soundscape Models. In Proceedings of the 45th International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Barcelona, Spain.
 
-[6] Pandrea, A.G., et al. (2020). Cross-Dataset Music Emotion Recognition: an End-to-End Approach. Late-Breaking/Demo of the 21st International Society for Music Information Retrieval Conference (ISMIR). Montréal, Canada (virtual).
+[6] Gómez-Cañón, J.S., et al. (2020). Transfer learning from speech to music: towards language-sensitive emotion recognition models. In Proceedings of the 28th European Signal Processing Conference (EUSIPCO). Amsterdam, The Netherlands (virtual).
 
-[7] Gómez-Cañón, J.S., et al. (2021). Language-sensitive Music Emotion Recognition models: are we really there yet? In Proceedings of the 46th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). Toronto, Canada (virtual).
+[7] Pandrea, A.G., et al. (2020). Cross-Dataset Music Emotion Recognition: an End-to-End Approach. Late-Breaking/Demo of the 21st International Society for Music Information Retrieval Conference (ISMIR). Montréal, Canada (virtual).
+
+[8] Gómez-Cañón, J.S., et al. (2021). Language-sensitive Music Emotion Recognition models: are we really there yet? In Proceedings of the 46th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). Toronto, Canada (virtual).
 
 ##### Personalized models
 
