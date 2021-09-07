@@ -230,7 +230,9 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 
 [9] Cancino-Chacón, C.E., et al. (2018). Computational Models of Expressive Music Performance: A Comprehensive and Critical Review. Frontiers in Digital Humanities, 5.
 
-[10] Korzeniowski, F. et al. (2020). Mood Classification using Listening Data. In Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR). Virtual.
+[10] Dufour, I. & Tzanetakis, G. (2018). Using circular models to improve music emotion recognition. IEEE Transactions on Affective Computing. 
+
+[10] Korzeniowski, F., et al. (2020). Mood Classification using Listening Data. In Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR). Virtual.
 
 [11] Chaki, S., et al. (2020). Explaining perceived emotion predictions in music: an attentive approach. In Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR). Virtual.
 
@@ -345,6 +347,8 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 [14] Fan, J. (2020). Advances in Soundscape and Music Emotion Recognition. Simon Fraser University.
 
 [15] Yang, S. (2020). Understanding Agreement and Disagreement in Listeners’ Perceived Emotion in Live Music Performance. Queen Mary University of London. 
+
+[16] Dufour, I. (). . 
 
 ## Publication
 
