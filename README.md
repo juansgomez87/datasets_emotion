@@ -230,8 +230,6 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 
 [9] Cancino-Chacón, C.E., et al. (2018). Computational Models of Expressive Music Performance: A Comprehensive and Critical Review. Frontiers in Digital Humanities, 5.
 
-[10] Dufour, I. & Tzanetakis, G. (2018). Using circular models to improve music emotion recognition. IEEE Transactions on Affective Computing. 
-
 [10] Korzeniowski, F., et al. (2020). Mood Classification using Listening Data. In Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR). Virtual.
 
 [11] Chaki, S., et al. (2020). Explaining perceived emotion predictions in music: an attentive approach. In Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR). Virtual.
@@ -239,6 +237,8 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 [12] Hung, H.T., et al. (2021). EMOPIA: A Multi-Modal Pop Piano Dataset For Emotion Recognition and Emotion-based Music Generation. In Proceedings of the 22nd International Society for Music Information Retrieval Conference (ISMIR). Virtual. 
 
 [13] Yang, S., et al. (2021). Examining emotion perception agreement in live music performance. IEEE Transactions on Affective Computing. 
+
+[14] Dufour, I. & Tzanetakis, G. (2021). Using circular models to improve music emotion recognition. IEEE Transactions on Affective Computing. 
 
 ##### Lyrics
 
