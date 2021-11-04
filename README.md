@@ -1,4 +1,7 @@
-# Music Emotion Recognition: towards new robust standards in personalized and context-sensitive applications
+# Music Emotion Recognition: Toward new, robust standards in personalized and context-sensitive applications
+Complementary website for article in IEEE Signal Processing Magazine, 36(6), 2021.
+
+-- Juan Sebastián Gómez-Cañón, Estefanía Cano, Tuomas Eerola, Perfecto Herrera, Xiao Hu, Yi-Hsuan Yang, and Emilia Gómez
 
 ## Abstract
 In this paper we present a review of the challenges and limitations of Music Emotion Recognition (MER), an interdisciplinary research area addressing the characterization of music in terms of emotion. 
@@ -361,11 +364,12 @@ author = {Gómez-Cañón, Juan Sebastián and
           Hu, Xiao and 
           Yang, Yi-Hsuan and
           Gómez Emilia},
-title = {{Music Emotion Recognition: towards new robust standards in personalized and context-sensitive applications}},
+title = {{Music Emotion Recognition: Toward new, robust standards in personalized and context-sensitive applications}},
 journal = {IEEE Signal Processing Magazine},
 volume = {38},
 issue = {6},
 year = {2021},
+pages={106--114},
 doi = {10.1109/MSP.2021.3106232}
 }
 ```
