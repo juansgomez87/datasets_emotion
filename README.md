@@ -52,6 +52,7 @@ This website offers a detailed overview of music and emotion datasets and an ext
 |[Jamendo Moods and Themes](#jamendo-mood-and-theme-subset)|2019|18486 full songs|MP3|152GB|Categorical|Perceived|
 |[VGMIDI](#vgmidi)|2019|200 MIDI files|MIDI|1.37GB|Dimensional|Perceived|
 |[CCMED-WCMED](#ccmed-wcmed)|2020|800 excerpts (8-20s long)|WAV| - |"Discrete" Dimensional|Perceived|
+|[Moodo](#moodo)|2016|200 tracks (15 seconds)|WAV|Percieved Color|"Discrete" Dimensional|Perceived|
 
 ## Additional information
 #### Moods MIREX
@@ -168,6 +169,16 @@ and the medleyDB datase. The excerpts which were annotated are available in the 
 * Annotation strategy: Two crowdsourcing experiments were carried out to collect emotional annotations (arousal and valence). The authors used a ranking-based method. Instead of providing absolute ratings, participants do pairwise comparisons by deciding which audio excerpt has higher arousal/valence.
 * Annotation (dimensional): Arousal and valence real values between [-1,1] for whole excerpt.
 * Link: https://metacreation.net/ccmed_wcmed_soundscape/
+
+#### Moodo
+* Authors: M Pesek, G Strle, A Kavčič, M Marolt 
+* Description and music styles: The dataset contains 200 excerpts (15 seconds). 20 from electronic acoustic, 20 from ethno, 80 from populair (Jamendo) and 80 from movie (Eerola and Vuoskoski, 2010).  
+* Annotation strategy: 741 participants where presented with 10 music excerpts and instructed to choose a color best associated with the music excerpt;
+* Annotation (dimensional): Arousal and valence real values between [-1,1] this was mapped to a color.
+* Link: [http://moodo.musiclab.si](http://moodo.musiclab.si)
+
+
+
 
 ## Extended bibliography
 #### Reviews on MER
