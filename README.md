@@ -45,6 +45,7 @@ This website offers a detailed overview of music and emotion datasets and an ext
 |[DEAP](#deap)|2012|120 exceprts (60s long)|Links| - |Dimensional|Induced|
 |[AMG1608](#amg1608)|2015|1608 excerpts (30s long)|WAV|4.3GB|"Discrete" Dimensional|Perceived|
 |[Emotify](#emotify)|2016|400 excerpts (60s long)|MP3|363MB|Categorical (GEMS)|Induced|
+|[Moodo](#moodo)|2016|200 tracks (15 seconds)|WAV|Percieved Color|"Discrete" Dimensional|Perceived|
 |[CH818](#ch818)|2017|818 excerpts (30s long)|MP3|393MB|Dimensional|Perceived|
 |[4Q-emotion](#4q-emotion-dataset)|2018|900 excerpts (30s long)|MP3|291MB|Categorical (Quadrants)|Perceived|
 |[DEAM/Mediaeval](#mediaeval-database-for-emotional-analysis-in-music)|2018|2058 excerpts (45s long)|MP3|1.4GB|Dimensional (Time-continuous A-V)|Perceived|
@@ -118,6 +119,13 @@ concepts from the vocabulary.  Participants were rewarded $10 for a one hour ann
 * Annotation strategy: The annotations were collected using GEMS scale (Geneva Emotional Music Scales). The annotations produced by the game are spread unevenly among the songs, which is caused both by design of the experiment and design of the game. Participants could skip songs and switch between genres, and they were encouraged to do so, because induced emotional response does not automatically occur on every music listening occasion. 
 * Annotation (categorical): Nine categories (amazement, solemnity, tenderness, nostalgia, calmness, power, joyful activation, tension, sadness)
 * Link: http://www2.projects.science.uu.nl/memotion/emotifydata/
+
+#### Moodo
+* Authors: M Pesek, G Strle, A Kavčič, M Marolt 
+* Description and music styles: The dataset contains 200 excerpts (15 seconds). 20 from electronic acoustic, 20 from ethno, 80 from popular (Jamendo) and 80 from movies (Eerola and Vuoskoski, 2010).  
+* Annotation strategy: 741 participants where presented with 10 music excerpts and instructed to choose a color best associated with the music excerpt.
+* Annotation (dimensional): Arousal and valence real values between [-1,1] this was mapped to a color.
+* Link: [http://moodo.musiclab.si](http://moodo.musiclab.si)
 
 #### CH818
 * Author: Hu, X., Yang, Y.
